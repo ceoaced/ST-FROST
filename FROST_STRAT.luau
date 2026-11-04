@@ -2,6 +2,7 @@
 getgenv().AutoSkipCutscenes = true
 getgenv().AutoDJ = true
 getgenv().AutoRejoin = true
+getgenv().AutoSkip = false
 -- [ End Settings ] --
 
 local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
