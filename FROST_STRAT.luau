@@ -2,11 +2,7 @@
 getgenv().AutoRejoin = true
 getgenv().AutoRestart = true
 getgenv().AutoSkipCutscenes = true
-getgenv().AutoChain = true
-getgenv().AutoMedic = true
 getgenv().AutoDJ = true
-getgenv().AutoNecro = true
-getgenv().AutoMercenary = true
 -- [ End Settings ] --
 
 local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
@@ -317,4 +313,4 @@ TDS:Upgrade(41)
 TDS:Upgrade(41)
 
 -- [ Wave 40 ] --
-TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(-9.003546714782715, 0.9999985694885254, 9.19596004486084), towerToClone = 20})
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(-9.003546714782715, 0.9999985694885254, 9.19596004486084), towerToClone = 20}, true)
