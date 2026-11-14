@@ -18,7 +18,7 @@ TDS:Ready()
 -- [ Wave 1 ] --
 TDS:Upgrade(1)
 TDS:Upgrade(2)
-
+TDS:Ready()
 -- [ Wave 2 ] --
 TDS:Place("Scout", -18.352136611938477, 1.0000005960464478, -3.5237879753112793, true)
 TDS:Upgrade(3)
